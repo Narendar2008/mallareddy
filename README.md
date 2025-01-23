@@ -29,5 +29,13 @@ printArray(reverseArr);
         }
     }
 }
-
+======
+ public static List<Integer> reverseArray(List<Integer> a) {
+    // Write your code here
+    ArrayList<Integer> reversedList=new ArrayList<>();
+    for(int i=a.size()-1;i>=0;i--){
+        reversedList.add(a.get(i));
+    }
+    return reversedList;
+    }
 ```
